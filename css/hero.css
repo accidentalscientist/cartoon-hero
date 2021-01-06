@@ -1,7 +1,7 @@
 body{
 	background-color: silver;
 	margin: 0;
-	font: helvetica, arial, sans-serif;
+	font-family: helvetica, arial, sans-serif;
 	line-height: 30px;
 
 }
@@ -28,19 +28,24 @@ header img{
 }
 
 main{
-	max-width: 800px;
+	max-width: 600px;
 	margin: 0 auto;
+	align-content: center;
 	padding: 0px 20px 20px 0px
 }
 
 main img{
-	max-width: 100%;
+	max-width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 60%;	
 }
 
 /*Write your comments here*/
 
 h2{
-	font-size: 32px;
+	font-size: 26px;
 	margin: 40px 0 10px;
 }
 
@@ -55,7 +60,7 @@ footer{
 	background-color: #d14635;
 	text-align: center;
 	color: white;	
-	padding: 50px;
+	padding: 10px;
 }
 
 footer p{
@@ -69,4 +74,5 @@ footer a{
 p.caption{
 	font-style: italic;
 	margin-top: 0;
+	text-align: center;
 }
